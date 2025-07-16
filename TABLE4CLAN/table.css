@@ -1,0 +1,81 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background:rgb(48, 43, 43);
+      color:cadetblue;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: rgb(9, 10, 10);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px gold;
+    }
+
+    .header {
+      text-align: center;
+      color: cadetblue;
+      margin-bottom: 20px;
+     /* background-origin:rgb(214, 125, 53);*/
+    }
+
+    .header h1 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+
+    .header h3 {
+      font-weight: normal;
+      font-size: 18px;
+      margin-top: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid rgb(6, 252, 76);
+      padding: 12px 8px;
+    }
+
+    th {
+      background-color:rgb(28, 27, 15);
+      color: cadetblue;
+    }
+
+    tr:nth-child(even) {
+      background-color:rgb(28, 27, 15);
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      color: cadetblue;
+      font-weight: bold;
+    }
+
+    .logos {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .logos span {
+      color: cadetblue;
+    }
+
+    @media (max-width: 768px) {
+      .logos {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+ 
